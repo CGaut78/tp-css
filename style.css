@@ -20,7 +20,7 @@
     top: 0px;
 }
 
-.navbar a {
+a {
     text-decoration: none;
     color: white;
     font-size: large;
@@ -71,4 +71,51 @@ header {
 h2 {
     color: white;
     font-size: x-large;
+}
+
+.pic {
+    margin: 20px;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic p {
+    width: 40%;
+    text-align: justify;
+}
+
+.presentation img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: contain;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    gap: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer {
+    height: 4rem;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-top: 30px;
 }
